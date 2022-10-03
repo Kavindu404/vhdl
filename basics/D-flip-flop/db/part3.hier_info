@@ -1,0 +1,24 @@
+|part3
+ClkD => D_FP:D2.Clk
+ClkD => D_FP:D1.Clk
+D => D_FP:D1.S
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= Qs.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part3|D_FP:D1
+Clk => S_g.IN0
+Clk => R_g.IN1
+S => S_g.IN1
+S => R.DATAIN
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part3|D_FP:D2
+Clk => S_g.IN0
+Clk => R_g.IN1
+S => S_g.IN1
+S => R.DATAIN
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+

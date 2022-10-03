@@ -1,0 +1,22 @@
+|sev_seg_dec
+C[0] => LessThan0.IN6
+C[0] => Equal0.IN2
+C[0] => Equal1.IN0
+C[0] => Equal2.IN2
+C[1] => LessThan0.IN5
+C[1] => Equal0.IN1
+C[1] => Equal1.IN2
+C[1] => Equal2.IN0
+C[2] => LessThan0.IN4
+C[2] => Equal0.IN0
+C[2] => Equal1.IN1
+C[2] => Equal2.IN1
+HEX0[6] <= <GND>
+HEX0[5] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[4] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[3] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[2] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[1] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+
+

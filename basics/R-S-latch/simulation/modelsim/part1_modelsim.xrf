@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, D:/SLIIT/Year 03/Semester 02/ADD/Labs/Quartus II/Lab 03/Part I/part1.vhd
+source_file = 1, D:/SLIIT/Year 03/Semester 02/ADD/Labs/Quartus II/Lab 03/Part I/Waveform.vwf
+source_file = 1, D:/SLIIT/Year 03/Semester 02/ADD/Labs/Quartus II/Lab 03/Part I/db/part1.cbx.xml
+source_file = 1, d:/softwares/qaurtus/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/softwares/qaurtus/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/softwares/qaurtus/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/softwares/qaurtus/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = part1
+instance = comp, \S~I , S, part1, 1
+instance = comp, \Clk~I , Clk, part1, 1
+instance = comp, \R~I , R, part1, 1
+instance = comp, \Q~I , Q, part1, 1

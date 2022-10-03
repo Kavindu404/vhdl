@@ -1,0 +1,19 @@
+LIBRARY ieee; 
+USE ieee.std_logic_1164.all; 
+
+ENTITY mux_5_1 IS 
+	PORT ( S, U, V, W, X, Y : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+			 M : OUT STD_LOGIC_VECTOR(2 DOWNTO 0)); 
+END mux_5_1; 
+
+ARCHITECTURE Behavior OF mux_5_1 IS 
+
+BEGIN 
+	M<= U when (S="000") else
+		 V when (S="001") else
+		 W when (S="010") else
+		 X when (S="011") else
+		 Y;
+
+ 
+END Behavior;

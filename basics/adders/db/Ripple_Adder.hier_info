@@ -1,0 +1,121 @@
+|Ripple_Adder
+A0 => Full_Adder:FA1.X
+A1 => Full_Adder:FA2.X
+A2 => Full_Adder:FA3.X
+A3 => Full_Adder:FA4.X
+B0 => Full_Adder:FA1.Y
+B1 => Full_Adder:FA2.Y
+B2 => Full_Adder:FA3.Y
+B3 => Full_Adder:FA4.Y
+CIN => Full_Adder:FA1.Z
+S0 <= Full_Adder:FA1.Sh
+S1 <= Full_Adder:FA2.Sh
+S2 <= Full_Adder:FA3.Sh
+S3 <= Full_Adder:FA4.Sh
+C4 <= Full_Adder:FA4.Ch
+
+
+|Ripple_Adder|Full_Adder:FA1
+X => Half_Adder:HA1.A
+Y => Half_Adder:HA1.B
+Z => Half_Adder:HA2.B
+Sh <= Half_Adder:HA2.Sum
+Ch <= Ch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ripple_Adder|Full_Adder:FA1|Half_Adder:HA1
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ripple_Adder|Full_Adder:FA1|Half_Adder:HA2
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ripple_Adder|Full_Adder:FA2
+X => Half_Adder:HA1.A
+Y => Half_Adder:HA1.B
+Z => Half_Adder:HA2.B
+Sh <= Half_Adder:HA2.Sum
+Ch <= Ch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ripple_Adder|Full_Adder:FA2|Half_Adder:HA1
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ripple_Adder|Full_Adder:FA2|Half_Adder:HA2
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ripple_Adder|Full_Adder:FA3
+X => Half_Adder:HA1.A
+Y => Half_Adder:HA1.B
+Z => Half_Adder:HA2.B
+Sh <= Half_Adder:HA2.Sum
+Ch <= Ch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ripple_Adder|Full_Adder:FA3|Half_Adder:HA1
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ripple_Adder|Full_Adder:FA3|Half_Adder:HA2
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ripple_Adder|Full_Adder:FA4
+X => Half_Adder:HA1.A
+Y => Half_Adder:HA1.B
+Z => Half_Adder:HA2.B
+Sh <= Half_Adder:HA2.Sum
+Ch <= Ch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ripple_Adder|Full_Adder:FA4|Half_Adder:HA1
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ripple_Adder|Full_Adder:FA4|Half_Adder:HA2
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+

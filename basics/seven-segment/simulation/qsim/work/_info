@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\SLIIT\Year 03\Semester 02\ADD\Labs\Quartus II\Lab 02\Part 4\simulation\qsim
+vsev_seg_dec
+Z1 !s100 ]J3]5N^ZUAb8lGlJXnHS^0
+Z2 IaAOVE8mbdSBCa3E`FXRcD3
+Z3 V=lP0[:9mNMW[AgANN[ldn0
+Z4 dD:\SLIIT\Year 03\Semester 02\ADD\Labs\Quartus II\Lab 02\Part 4\simulation\qsim
+Z5 w1627401491
+Z6 87_seg_dec.vo
+Z7 F7_seg_dec.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|7_seg_dec.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1627401492.362000
+Z12 !s107 7_seg_dec.vo|
+!s101 -O0
+vsev_seg_dec_vlg_check_tst
+!i10b 1
+Z13 !s100 lgT3W1>X6]>P5c`gXK=Tz0
+Z14 If_PhGXHHT_2ED`eTJWCkn2
+Z15 V@^XS=Z`4443;^Q]hNFe<^0
+R4
+R5
+Z16 87_seg_dec.vt
+Z17 F7_seg_dec.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z18 !s108 1627401492.439000
+Z19 !s107 7_seg_dec.vt|
+Z20 !s90 -work|work|7_seg_dec.vt|
+!s101 -O0
+R10
+vsev_seg_dec_vlg_sample_tst
+!i10b 1
+Z21 !s100 fN:Z[>3aPAjQZSH?VYY`k0
+Z22 IPQmGcX3AQcPn53B5K=oia0
+Z23 VMYA_bo916OdOj9QCWo?IW3
+R4
+R5
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+vsev_seg_dec_vlg_vec_tst
+!i10b 1
+Z24 !s100 kj84:=Ozh62JN7zNf=X3]2
+Z25 ImiAGdDf6`DkIOjJo<<cHh2
+Z26 VVKP@l7KCFZHGE84KYhghH0
+R4
+R5
+R16
+R17
+Z27 L0 259
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
